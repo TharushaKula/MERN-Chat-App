@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
+
 
 
 const Login = () => {
@@ -44,9 +46,9 @@ const Login = () => {
 							
 						/>
 					</div>
-					<div className='text-sm  hover:underline hover:text-blue-600 mt-2 inline-block'>
+					<Link to='/signup' className='text-sm  hover:underline hover:text-blue-600 mt-2 inline-block'>
 						{"Don't"} have an account?
-					</div>
+					</Link>
 
 					<div>
 						<button className='btn btn-block btn-sm mt-2'>
